@@ -40,7 +40,7 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
   defp deps do
     [
       {:commanded, "~> 1.4"},
-      {:eventstore, "~> 1.4"},
+      {:eventstore, git: "https://github.com/Qarma-inspect/eventstore.git"},
 
       # Optional dependencies
       {:jason, "~> 1.4", optional: true},
